@@ -1,0 +1,79 @@
+.tabs-wrapper {
+    font-family: 'Segoe UI', sans-serif;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .tabs-header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    gap: 1rem;
+  }
+  
+  .tab-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: 2px solid #0070c0;
+    background-color: white;
+    color: #0070c0;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+  
+  .tab-button.active {
+    background-color: #0070c0;
+    color: white;
+  }
+  
+  .tab-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: flex-start;
+  }
+  
+  .image-section img {
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .text-section h2 {
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .text-section p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    color: #555;
+  }
+  
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+  }
+  
+  .feature-card {
+    border: 1px solid #d9d9d9;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .feature-icon {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+    color: #0070c0;
+  }
+  
+  .feature-label {
+    font-size: 0.95rem;
+    color: #333;
+  }
+  
